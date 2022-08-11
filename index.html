@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <script src="./app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <title>SESI-8-CUYUNIVERSITY</title>
+  </head>
+  <body>
+    <!-- Password generator with html and bootstrap for the frontend and js for the backend without php -->
+    <div
+      class="container d-flex justify-content-center align-items-center min-vh-100"
+    >
+      <div class="d-flex flex-column">
+        <h1>Password Generator</h1>
+        <div class="d-flex flex-column gap-2 mt-2">
+          <label for="passwordLength" class="fw-bold">Password length</label>
+          <input type="number" class="form-control" id="passwordLength" />
+          <label for="password" class="fw-bold">Password</label>
+          <input type="password" class="form-control" id="password" />
+          <button class="btn btn-outline-dark">Generate Password!</button>
+          <button class="btn btn-outline-primary">Save Password!</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
